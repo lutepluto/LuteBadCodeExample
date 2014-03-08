@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<FromUserName><![CDATA[fromUser]]></FromUserName>
+	<ToUserName><![CDATA[toUser]]></ToUserName>
+	<CreateTime>12345678</CreateTime>
+	<MsgType><![CDATA[music]]></MsgType>
+	<Music>
+		<Title><![CDATA[TITLE]]></Title>
+		<Description><![CDATA[DESCRIPTION]]></Description>
+		<MusicUrl><![CDATA[MUSIC_Url]]></MusicUrl>
+		<HQMusicUrl><![CDATA[HQ_MUSIC_Url]]></HQMusicUrl>
+	</Music>
+</xml>

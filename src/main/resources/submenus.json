@@ -1,0 +1,147 @@
+[
+	{
+		"id": "submenu-reply-auto",
+		"key": "menu-reply",
+		"name": "智能回复",
+		"icon": "refresh",
+		"url": "javascript:void(0)",
+		"submenus": [
+			{
+				"id": "submenu-reply-subscribe",
+				"name": "关注回复",
+				"url": "replies/subscribe"
+			},{
+				"id": "submenu-reply-default",
+				"name": "标准回复",
+				"url": "replies/default"
+			},{
+				"id": "submenu-reply-inbox",
+				"name": "留言回复",
+				"url": "replies/inbox"
+			},{
+				"id": "submenu-reply-keywords",
+				"name": "关键字回复",
+				"url": "replies/keywords"
+			},{
+				"id": "submenu-reply-lbs",
+				"name": "LBS",
+				"url": "replies/lbs"
+			}
+		]
+	},{
+		"id": "submenu-reply-message",
+		"key": "menu-reply",
+		"name": "实时消息",
+		"icon": "envelope",
+		"url": "javascript:void(0)",
+		"submenus": [
+			{
+				"id": "submenu-messages",
+				"name": "消息列表",
+				"url": "messages"
+			}
+		]
+	},{
+		"id": "submenu-reply-interaction",
+		"key": "menu-reply",
+		"name": "互动应用",
+		"icon": "tasks",
+		"url": "javascript:void(0)",
+		"submenus": [
+			{
+				"id": "submenu-wall",
+				"name": "微信墙",
+				"url": "#"
+			},{
+				"id": "submenu-survey",
+				"name": "微问卷",
+				"url": "#"
+			},{
+				"id": "submenu-vote",
+				"name": "微投票",
+				"url": "#"
+			},{
+				"id": "submenu-luck",
+				"name": "微抽奖",
+				"url": "#"
+			}
+		]
+	},{
+		"id": "submenu-account-management",
+		"name": "微信公众帐号",
+		"key": "menu-account",
+		"icon": "tasks",
+		"url": "javascript:void(0)",
+		"submenus": [
+			{
+				"id": "submenu-account-list",
+				"name": "微信公众账号列表",
+			 	"url": "accounts"
+			},{
+				"id": "submenu-account-create",
+				"name": "微信公众账号注册",
+				"url": "accounts/create"
+			}
+		]
+	},{
+		"id": "submenu-user-management",
+		"name": "系统登录用户",
+		"key": "menu-account",
+		"icon": "tasks",
+		"url": "javascript:void(0)",
+		"submenus": [
+			{
+				"id": "submenu-user-admin",
+				"name": "系统管理员",
+				"url": "users/role-admin"
+			},{
+				"id": "submenu-user-weixin",
+				"name": "微信公众号管理员",
+				"url": "users/role-weixin"
+			}
+		]
+	},{
+		"id": "submenu-stat",
+		"key": "menu-stat",
+		"name": "系统使用统计",
+		"icon": "tasks",
+		"url": "javascript:void(0)",
+		"submenus": [
+			{
+				"id": "submenu-login-session",
+				"name": "登录登出汇总",
+				"url": "login-session"
+			},{
+				"id": "submenu-site-stat",
+				"name": "微官网访问统计",
+				"url": "#"
+			}
+		]
+	},{
+		"id": "submenu-system-person",
+		"key": "menu-system",
+		"name": "个人信息",
+		"icon": "user",
+		"url": "javascript:void(0)",
+		"submenus": [
+			{
+				"id": "submenu-personal",
+				"name": "登录帐户信息",
+				"url": "#"
+			}
+		]
+	},{
+		"id": "submenu-system-config",
+		"key": "menu-system",
+		"name": "系统参数",
+		"icon": "cog",
+		"url": "javascript:void(0)",
+		"submenus": [
+			{
+				"id": "submenu-global-settings",
+				"name": "全局参数设置",
+				"url": "#"
+			}
+		]
+	}
+]

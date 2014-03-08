@@ -1,0 +1,35 @@
+{	
+	"ROLE_ADMIN": {
+		"menus": ["menu-account", "menu-stat", "menu-system"],
+		"submenus": [
+					 "submenu-account-management", "submenu-account-list", "submenu-account-create", 
+					 "submenu-user-management", "submenu-user-admin", "submenu-user-weixin",
+					 "submenu-stat", "submenu-login-session", "submenu-site-stat",
+					 "submenu-system-person", "submenu-personal",
+					 "submenu-system-config", "submenu-global-settings"
+					],
+		"urls": ["accounts"]
+	},
+	"ROLE_WEIXIN": {   
+		"urls": ["index"]
+	},
+	"ROLE_WEIXIN_SERVICE": {   
+		"menus": ["menu-home", "menu-reply", "menu-customer", "menu-site", "menu-system"],
+		"submenus": [
+					 "submenu-reply-auto", "submenu-reply-subscribe", "submenu-reply-default", "submenu-reply-inbox", "submenu-reply-keywords", "submenu-reply-lbs",
+					 "submenu-reply-message", "submenu-messages",
+					 "submenu-reply-interaction", "submenu-wall", "submenu-survey", "submenu-vote", "submenu-luck",
+					 "submenu-system-person", "submenu-personal"
+					],
+		"urls": ["index"]
+	},
+	"ROLE_WEIXIN_SUBSCRIBE": {   
+		"menus": ["menu-home", "menu-reply", "menu-site", "menu-system"],
+		"submenus": [
+					 "submenu-reply-auto", "submenu-reply-subscribe", "submenu-reply-default", "submenu-reply-keywords", "submenu-reply-lbs",
+					 "submenu-reply-interaction", "submenu-wall", "submenu-survey", "submenu-vote", "submenu-luck",
+					 "submenu-system-person", "submenu-personal"
+					],
+		"urls": ["index"]
+	},
+}

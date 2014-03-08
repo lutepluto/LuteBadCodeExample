@@ -1,0 +1,31 @@
+[
+ {
+	"id": "menu-home",
+	"name": "首页",
+	"url": "home"
+ },{
+	"id":"menu-reply",
+	"name":"微交互",
+	"url":"replies"
+ },{
+	"id":"menu-customer",
+	"name":"微会员",
+	"url":"customer"
+ },{
+	"id":"menu-site",
+	"name":"微官网",
+	"url":"site"
+ },{
+	"id":"menu-account",
+	"name":"帐户设置",     
+	"url":"accounts"
+ },{
+	"id":"menu-stat",
+	"name":"数据统计",     
+	"url":"stat"
+ },{
+	"id":"menu-system",
+	"name":"系统设置",     
+	"url":"system"
+ }
+]

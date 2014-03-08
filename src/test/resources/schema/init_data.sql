@@ -1,0 +1,2 @@
+INSERT INTO `users` (`id`, `name`, `password`, `authority`, `is_active`, `is_primary`) VALUES (1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'ROLE_ADMIN', 1, 0);
+insert into user_stat (`id`, `create_time`) values (1, sysdate());
